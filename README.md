@@ -1,14 +1,14 @@
 # text_to_image
-<!DOCTYPE html>
-<html lang="en">
+     <!DOCTYPE html>
+    <html lang="en">
 
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Website</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script|Roboto">
 
-   <style>
+       <style>
         body {
             font-family: 'Roboto', sans-serif; /* Apply the Roboto font to the body text */
             margin: 0;
@@ -57,29 +57,29 @@
             width: 100%;
         }
     </style>
-</head>
+    </head>
 
-<body>
+    <body>
 
-   <header>
+       <header>
         <h1> Text-Image Generator</h1>
     </header>
 
-   <section>
+       <section>
         <h2>WELCOME TO TEXT-IMAGE GENERATOR !</h2>
         <p>In this you can generate a image from text.</p>
         
      <!-- Start button -->
        <a href="frontend.html">
        <button>Start</button>
-  </a>
+      </a>
     </section>
 
-  <footer>
+      <footer>
         <p>&copy; 2024 Your Website. All rights reserved.</p>
     </footer>
 
 
-</body>
+    </body>
 
-</html>
+    </html>
