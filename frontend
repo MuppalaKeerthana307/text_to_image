@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Styler</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #a271ae; /* Dark purple background color */
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        input {
+            margin: 5px;
+            padding: 8px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 10px;
+            font-weight: bold; /* Make the button text bold */
+        }
+
+        #output {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        label {
+            font-weight: bold; /* Make the labels bold */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <label for="textInput">Text:</label>
+        <textarea   id="textInput" placeholder="Enter the text" rows="5" cols="20"></textarea>
+
+        <br>
+
+        <label for="fontSizeInput">Font Size:</label>
+        <input type="number" id="fontSizeInput" placeholder="Enter font size...">
+
+        <br>
+
+        <label for="bgColorInput">Background Color:</label>
+        <input type="color" id="bgColorInput">
+
+        <br>
+
+        <label for="fontFamilyInput">Font Family:</label>
+        <select id="fontFamilyInput" style="margin: 5px; padding: 8px; font-size: 16px;">
+            <option value="Arial, sans-serif">Arial, sans-serif</option>
+            <option value="Times New Roman, serif">Times New Roman, serif</option>
+            <option value="Courier New, monospace">Courier New, monospace</option>
+        </select>
+
+        <br>
+
+        <label for="fontColorInput">Font Color:</label>
+        <input type="color" id="fontColorInput">
+
+        <br>
+
+        <label for="imageFormatInput">Image Format:</label>
+        <select id="imageFormatInput" style="margin: 5px; padding: 8px; font-size: 16px;">
+            <option value="jpg">JPG</option>
+            <option value="jpeg">JPEG</option>
+            <option value="png">PNG</option>
+        </select>
+
+        <br>
+
+        <button>Generate</button>
+        <button >Download</button>
+    
+    </div>
+
+    
+</body>
+</html>
